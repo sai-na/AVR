@@ -4,7 +4,8 @@
  *  Created: 06-04-2022 20:35:50
  *   Author: NHJ-K
  */ 
- ;LED INTERFACING EXP2
+ ;LED INTERFACING EXP2 
+ ; zero to ff
 
  LDI R16,HIGH(RAMEND)
  OUT SPH,R16
@@ -15,10 +16,10 @@
  OUT DDRB,R16
 
  L:
- INC R16
+ INC R16   ; 00 to ff
  OUT PORTB,R16
  CALL DELAY
- RJMP L
+ RJMP L ; after ff goto 00
 
  DELAY:
  LDI R17,0xF

@@ -1,9 +1,4 @@
-/*
- * AVRAssembler2.asm
- *
- *  Created: 06-04-2022 20:03:53
- *   Author: NHJ-K
- */ 
+ 
  ;LED INTERFACING EXP 1
  
 LDI R16,0xFF
