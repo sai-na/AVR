@@ -5,15 +5,14 @@
 #define buzzer PC5
 int main(void)
 {
-	DDRC=0xFF;
+	DDRC = 0xFF;
 	PORTC = 0x00;
-	
-	while(1)
-    {
+
+	while (1)
+	{
 		_delay_ms(300);
-		PORTC |= (1<<buzzer);
+		PORTC |= (1 << buzzer);
 		_delay_ms(300);
-		PORTC &= ~(1<<buzzer);
-        //TODO:: Please write your application code 
-    }
+		PORTC &= ~(1 << buzzer);
+	}
 }
