@@ -1,9 +1,4 @@
-/*
- * AVRGCC1.c
- *
- * Created: 06-04-2022 20:50:15
- *  Author: NHJ-K
- */ 
+
 
 //LED INTERFACING EXP4
 

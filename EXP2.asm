@@ -1,9 +1,4 @@
-/*
- * AVRAssembler3.asm
- *
- *  Created: 06-04-2022 20:35:50
- *   Author: NHJ-K
- */ 
+
  ;LED INTERFACING EXP2 
  ; zero to ff
 

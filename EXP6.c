@@ -1,9 +1,3 @@
-/*
- * AVRGCC3.c
- *
- * Created: 06-04-2022 21:14:39
- *  Author: NHJ-K
- */ 
 
 //PACKED BCD TO ASCII EXP6
 

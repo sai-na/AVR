@@ -1,9 +1,4 @@
-/*
- * AVRAssembler4.asm
- *
- *  Created: 06-04-2022 20:41:39
- *   Author: NHJ-K
- */ 
+
 
  ;PORT PIN AS INPUT EXP3
 

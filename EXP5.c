@@ -1,9 +1,4 @@
-/*
- * AVRGCC2.c
- *
- * Created: 06-04-2022 21:02:40
- *  Author: NHJ-K
- */ 
+
 
 #include <avr/io.h>
 #include <util/delay.h>
