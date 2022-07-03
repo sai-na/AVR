@@ -1,6 +1,4 @@
 /*
- * AVRGCC12.c
- *
 timer 0 normalmode
  */
 
@@ -21,7 +19,7 @@ int main(void)
 void todelay()
 {
 	TCNT0 = 0x20;
-	TCCR0 = 0x01;
+	TCCR0 = 0x05;
 	while ((TIFR & 0x01) == 0)
 		;
 	TCCR0 = 0;

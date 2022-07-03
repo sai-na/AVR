@@ -1,7 +1,6 @@
 /*
- * AVRGCC13.c
-
- */
+timer0 ctc mode
+*/
 
 #include <avr/io.h>
 void todelay();
@@ -15,16 +14,15 @@ int main(void)
 		todelay();
 		PORTB = 0xAA;
 		todelay();
-		// TODO:: Please write your application code
 	}
 }
 void todelay()
 {
 	TCNT0 = 0x20;
 	OCR0 = 0x65;
-	TCCR0 = 0x04;
+	TCCR0 = 0x05;
 	while ((TIFR & 0x01) == 0)
 		;
 	TCCR0 = 0;
-	TIFR = 0x1;
+	TIFR = 0x01;
 }
