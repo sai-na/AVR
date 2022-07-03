@@ -17,7 +17,7 @@ int main(void)
 {
 	DDRB = 0xFF;
 	PORTB = DATA1 & DATA2;
-	_delay_ms(1);
+	_delay_ms(1); // delay for 5000 ms is best for proper display
 	PORTB = DATA3 | DATA4;
 	_delay_ms(1);
 	PORTB = DATA5 ^ DATA6;

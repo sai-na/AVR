@@ -1,7 +1,7 @@
 /*
  * AVRGCC12.c
  *
-
+timer 0 normalmode
  */
 
 #include <avr/io.h>
