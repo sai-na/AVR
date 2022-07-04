@@ -9,9 +9,9 @@ int main(void)
 	PORTB |=(1<<PB7);
     while(1)
     {
-		PORTB |=(1<<PB7);
+		PORTB |=(1<<PB1);
 		_delay_ms(1000);
-		PORTB &= ~(1<<PB7);
+		PORTB &= ~(1<<PB1);
 		_delay_ms(1000);
         //TODO:: Please write your application code 
     }
